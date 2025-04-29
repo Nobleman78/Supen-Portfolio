@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    font-family: "Outfit", sans-serif;
+}
+.navbar__items{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding: 40px 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 100;  
+}
+.navbar__items img{
+    width: 35px;
+    height: 40px;
+    
+}
+.navbar__items ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+
+}
+.navbar__items ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    
+}
+.navbar__items ul a:hover{
+    color: #f6304e;
+}
+.navbar__items ul a.active{
+    color: #f6304e;
+}
+.hr__section hr{
+    position: relative; 
+    margin-top: 10%;
+    z-index: 0;
+    border:  1px solid rgb(236, 236, 236);
+}
+/* Education Section */
+.education__section{
+    padding: 80px 120px;
+}
+.education__section h2{
+    font-size: 40px;
+    color: rgb(95, 162, 51);
+}
+.education__section .education__section__contents{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap:10px;
+    margin-bottom: 30px;
+  
+}
+.education__section .education__section__contents h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education__section .education__section__contents h4{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.education__section .education__section__contents h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+.education__section .education__section__contents h5 span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.education__section .education__section__contents h6{
+    font-size: 20px;
+    font-weight: 200;
+}
+.education__section .education__section__contents h6 span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.appoinments__contents__partone{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.appoinments__contents__partone h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.appoinments__contents__partone h4, h5, h6{
+    font-size: 20px;
+    font-weight: 200;
+}
+.appoinments__contents__parttwo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.appoinments__contents__parttwo h4,h5,h6{
+    font-size: 20px;
+    font-weight: 200;
+}
+.appoinments__contents__partime h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
