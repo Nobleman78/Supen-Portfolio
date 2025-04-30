@@ -69,7 +69,9 @@ body{
     z-index: 100; 
     
 }
+
 /* Biography Section */
+
 .biography__section{
     display: flex;
     padding: 80px 140px;
@@ -167,6 +169,7 @@ body{
     text-align: justify;
     font-weight: 300;
 }
+
 /* This is for highlighted text */
 .short__biograpy  span{
 

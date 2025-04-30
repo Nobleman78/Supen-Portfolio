@@ -104,6 +104,7 @@ hr{
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
+
    /* Navbar Section */
 
     .navbar__items {
@@ -122,6 +123,9 @@ hr{
     .navbar__items ul a{
         font-size: 20px;
     }
+
+    /* Education Section */
+
     .education__section {
         padding: 0px 60px;
     }
@@ -139,6 +143,7 @@ hr{
 }
 
 @media (max-width: 600px) {
+
    /* Navbar Section */
 
     .navbar__items {
@@ -159,6 +164,7 @@ hr{
     .navbar__items ul a {
         font-size: 10px;
     }
+    
     /* Education Section */
     .education__section {
         padding: 0px 20px;

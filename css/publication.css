@@ -94,7 +94,7 @@ hr{
     .navbar__items ul a{
         font-size: 20px;
     }
-
+    /* Journal Section */
     .journal__section {
         padding: 0px 60px;
     }
@@ -130,7 +130,8 @@ hr{
     .navbar__items ul a {
         font-size: 10px;
     }
-
+    
+    /* Journal Section */
     .journal__section {
         padding: 0px 20px;
     }
