@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     gap: 5%;
-    padding: 40px 100px;
+    padding: 40px 120px;
     position: sticky;
     top: 0;
     left: 0;
@@ -185,3 +185,137 @@ body{
     border:  1px solid rgb(216, 215, 215);
 }
 
+/* Responsive Style */
+/* Tablet Styles */
+@media (max-width: 1024px) {
+
+    /* Navbar Section */
+
+    .navbar__items {
+        padding: 20px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar__items ul {
+        gap: 20px;
+        margin-top: 10px;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .navbar__items ul a{
+        font-size: 20px;
+    }
+
+    /* Banner Section */
+
+    .banner__section img {
+        height: 350px;
+    }
+
+    .banner__section .banner__heading {
+        font-size: 3rem;
+        top: 25%;
+        left: 8%;
+    }
+
+    /* Biograpy Section */
+
+    .biography__section {
+        padding: 40px 60px;
+    }
+
+    .biography__top__part {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .biography__contents img{
+        margin-bottom: 20px;
+    }
+    
+    .short__biograpy {
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .biography__section .biography__contents img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+
+    /* Navbar Section */
+
+    .navbar__items {
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    .navbar__items img {
+        width: 30px;
+        height: 35px;
+    }
+    .navbar__items ul{
+        gap: 10px;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .navbar__items ul a {
+        font-size: 10px;
+    }
+
+    /* Banner Section */
+
+    .banner__section img {
+        height: 100%;
+    }
+
+    .banner__section .banner__heading {
+        font-size: 1.5rem;
+        text-align: center;
+        top: 40%;
+        left: 0;
+        width: 100%;
+        
+    }
+
+    /* Biography Section */
+
+    .biography__section {
+        padding: 20px;
+        
+    }
+    .biography__section .biography__contents img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+    }
+    .about__me h2,
+    .important__links h2,
+    .contct__contents h2,
+    .postal__address__contents h2,
+    .short__biograpy h2 {
+        font-size: 24px;
+    }
+
+    .about__me p,
+    .important__links ul li,
+    .contct__contents p,
+    .postal__address__contents p,
+    .short__biograpy p {
+        font-size: 16px;
+    }
+
+    .short__biograpy {
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .short__biograpy span {
+        font-weight: 700;
+    }
+}
