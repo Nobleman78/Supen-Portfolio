@@ -18,6 +18,12 @@ body{
     position: fixed;
     background: white;
     z-index: 100;  
+    
+}
+.navbar__items active,
+.navbar__items focus{
+    outline: none !important;
+    box-shadow: none !important;
 }
 .navbar__items img{
     width: 35px;
@@ -35,6 +41,7 @@ body{
     text-decoration: none;
     font-size: 18px;
     color: black;
+
     
 }
 .navbar__items ul a:hover{
@@ -185,5 +192,3 @@ hr{
         font-size: 18px;
     }
 }
-
-

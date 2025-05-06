@@ -57,6 +57,17 @@ body{
     font-size: 40px;
     color: rgb(95, 162, 51);
 }
+.professional__expertise__section ul{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.professional__expertise__section ul  li{
+ 
+    font-size: 20px;
+    list-style: none;
+}
 .professional__expertise__section__contents{
     display: flex;
     flex-direction: column;
