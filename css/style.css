@@ -65,8 +65,7 @@ body {
 
 .banner__section img {
     width: 100%;
-    height: 500px;
-    opacity: 0.8;
+    height: 350px;
     position: relative;
     z-index: 0;
 }
