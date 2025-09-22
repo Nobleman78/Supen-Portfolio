@@ -61,6 +61,9 @@ body{
 }
 .gallery__section__contents{
     margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
 }
 .gallery__section__contents img{
     width: 100%;
@@ -145,6 +148,7 @@ hr{
     .gallery__section h2 {
         font-size: 20px;
     }
+   
 
     .gallery__section__contents p {
         font-size: 16px;
